@@ -1,0 +1,57 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 150px;
+}
+
+.left-box {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border: 1px solid black;
+  /* padding: 300px; */
+  padding: 25px 100px 500px 100px;
+  /* top padding is 25px
+  right padding is 50px
+  bottom padding is 75px
+  left padding is 100px */
+  margin: 20px;
+}
+
+.right-box {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border: 1px solid black;
+  /* padding: 300px; */
+  padding: 25px 100px 500px 100px;
+  /* top padding is 25px
+  right padding is 50px
+  bottom padding is 75px
+  left padding is 100px */
+  margin: 20px;
+}
+
+#title-color {
+  border-radius: 7px;
+  margin: 20px;
+}
+
+#para-color {
+  border-radius: 7px;
+  margin: 20px;
+}
+
+#submit-btn {
+  border-radius: 5px;
+  background-color: #4c4cff;;
+  padding: 13px;
+  color: white;
+}
+
+#select-font {
+  position: relative;
+  top: 50px;
+  left: -100px;
+}
