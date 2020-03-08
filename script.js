@@ -18,16 +18,21 @@ console.log("family", family);
 console.log("family", family.value);
 
 titleEnterd.addEventListener("input", showTitle);
+titleColor.addEventListener("style", showTitle);
+// titleColor.addEventListener("input", showTitle);
+
 
 function showTitle(e) {
   e.preventDefault();
-  headTitle.innerHTML = e.target.value;
+
   // headTitle.innerHTML = titleEnterd.value;
   headTitle.style.color = titleColor.value;
+  headTitle.innerHTML = e.target.value;
   headTitle.style.fontFamily = family.value;
 }
 
 userText.addEventListener("input", showText);
+paraColor.addEventListener("style", showText);
 
 
 
@@ -48,3 +53,4 @@ function showText(e) {
 // submitBtn.addEventListener('click', showText);
 
 // submitBtn.onclick = showTitle;
+
